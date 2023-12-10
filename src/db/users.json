@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "userId": 101,
+      "userName": "ShaniKGupta",
+      "email": "shani@gmail.com",
+      "password": "$2b$08$5SUZIVQQsdnm9c5ilF1GAOeLXwuT7Vh.i30Vkj8H12L/NVJ22NnZ6",
+      "role": "admin",
+      "createdAt": "1/12/2023 @ 12:1:55"
+    }
+  ]
+}
