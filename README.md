@@ -54,6 +54,12 @@ As a part of backend application and API development, I have used the below-ment
 7. jsonwebtoken
 8. url-search-params
 9. fs
+10. helmet
+11. chai
+12. mocha
+13. sinon.js
+14. winston
+15. morgan    
 
 ## Endpoint Implemented:
 

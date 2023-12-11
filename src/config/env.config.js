@@ -5,6 +5,7 @@ const {
   JWT_SECRET_KEY,
   JWT_ACCESS_TOKEN_EXPIRATION_TIME,
   NEWS_AGGREGATOR_API_KEY,
+  NODE_ENV
 } = process.env;
 
 module.exports = {
@@ -12,4 +13,5 @@ module.exports = {
   JWT_SECRET_KEY,
   JWT_ACCESS_TOKEN_EXPIRATION_TIME,
   NEWS_AGGREGATOR_API_KEY,
+  NODE_ENV
 };
