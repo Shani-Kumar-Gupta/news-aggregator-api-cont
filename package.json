@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node --watch --no-warnings src/app.js",
     "dev": "nodemon src/app.js",
-    "test": "mocha --timeout 3000 --recursive test/**/*.js --exit"
+    "test": "mocha --timeout 3000 --recursive test/**/*.js --exit",
+    "coverage": "nyc npm run test"
   },
   "author": "Shani Kumar Gupta",
   "license": "ISC",
@@ -27,6 +28,7 @@
     "chai-http": "^4.4.0",
     "mocha": "^10.2.0",
     "nodemon": "^3.0.1",
+    "nyc": "^15.1.0",
     "sinon": "^17.0.1"
   }
 }
