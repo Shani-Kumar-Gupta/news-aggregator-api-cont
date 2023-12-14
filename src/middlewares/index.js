@@ -1,4 +1,4 @@
 const requestLoggerMiddleware = require('./requestLogger.middleware');
-const morganMiddleware = require('./morgan.middleware');
+// const morganMiddleware = require('./morgan.middleware');
 
-module.exports = { requestLoggerMiddleware, morganMiddleware };
+module.exports = { requestLoggerMiddleware };

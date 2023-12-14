@@ -1,5 +1,5 @@
 {
-  "name": "news-aggregator-api",
+  "name": "news-aggregator-api-cont",
   "version": "1.0.0",
   "description": "News Aggregator Backend API",
   "main": "app.js",
