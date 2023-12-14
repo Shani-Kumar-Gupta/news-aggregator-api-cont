@@ -8,3 +8,4 @@
 2023-12-14 21:05:09:59 [32minfo[39m: [32mServer listening on PORT: 3000[39m
 2023-12-14 21:05:12:512 [35mhttp[39m: [35m::1 POST /auth/login 200 286 - 28.317 ms[39m
 [35m[39m
+2023-12-14 21:09:00:90 [32minfo[39m: [32mServer listening on PORT: 3000[39m

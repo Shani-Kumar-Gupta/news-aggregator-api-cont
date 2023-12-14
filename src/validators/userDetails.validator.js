@@ -1,6 +1,7 @@
 const { USER_ROLES } = require('../constants');
 const usersDetails = require('../db/users.json');
 const bcrypt = require('bcrypt');
+const { isValidEmail } = require('../helpers');
 
 class UserDetailsValidator {
   static validateUserDetailsRequestInfo(userDetail) {
@@ -15,9 +16,6 @@ class UserDetailsValidator {
         (user) => user.userName === userDetail.userName
       );
       if (isUserNameExists == -1) {
-        let isValidEmail = function (email) {
-          return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-        };
         if (isValidEmail(userDetail.email)) {
           let isEmailAlreadyExists = usersData.users.findIndex(
             (user) => user.email === userDetail.email
