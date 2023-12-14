@@ -8,6 +8,7 @@ const {
   JWT_SECRET_KEY,
   JWT_ACCESS_TOKEN_EXPIRATION_TIME,
 } = require('../config/env.config');
+const { generateAccessToken } = require('../helpers');
 
 /* Register User Controller */
 const registerUserController = (req, res, next) => {
@@ -68,15 +69,12 @@ const loginUserController = (req, res, next) => {
   /* validating user provided request body for login */
   let isUservalidated = UserDetailsValidator.validateLoginRequestInfo(body);
   if (isUservalidated.status) {
-    let accessToken = jwt.sign(
-      {
-        id: isUservalidated.userData[0]?.userId,
-        email: isUservalidated.userData[0]?.email,
-        userName: isUservalidated.userData[0]?.userName,
-      },
-      JWT_SECRET_KEY,
-      { expiresIn: JWT_ACCESS_TOKEN_EXPIRATION_TIME }
-    );
+    let userData = {
+      id: isUservalidated.userData[0]?.userId,
+      email: isUservalidated.userData[0]?.email,
+      userName: isUservalidated.userData[0]?.userName,
+    };
+    let accessToken = generateAccessToken(userData);
     if (accessToken) {
       return res.status(200).json({
         userEmail: isUservalidated.userData[0].email,
