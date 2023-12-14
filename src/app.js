@@ -4,7 +4,7 @@ const routes = express.Router();
 // const bodyParser = require('body-parser');
 const { authRouter, newsAggregatorRouter } = require('./routes');
 const { PORT_NUMBER } = require('./config/env.config');
-const { requestLoggerMiddleware } = require('./middlewares');
+const { requestLoggerMiddleware, morganMiddleware } = require('./middlewares');
 const {
   MSG_SERVER_LISTING,
   ERROR_EVENT,
@@ -21,9 +21,9 @@ app.use(helmet());
 // app.use(bodyParser.json());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
+app.use(morganMiddleware);
 app.use(routes);
 app.use(requestLoggerMiddleware);
-// app.use(morganMiddleware);
 
 /* Routers */
 routes.get('/', (req, res) => {
