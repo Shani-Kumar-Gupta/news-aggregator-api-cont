@@ -3,12 +3,16 @@ const { expect } = chai;
 const chaiHttp = require('chai-http');
 // const usersDetails = require('../../src/db/users.json');
 const UserDetailsValidator = require('../../src/validators/userDetails.validator');
+const logger = require('../../src/utils/logger.utils');
 
 chai.use(chaiHttp);
 
 describe('Validate User Details Request Details', function () {
   let userDetail;
   beforeEach((done) => {
+    logger.info(
+      'Initializing user details for each and every test case to validate registration'
+    );
     userDetail = {
       userName: 'TestName',
       email: 'test@example.com',
@@ -77,27 +81,59 @@ describe('Validate User Details Request Details', function () {
 });
 
 describe('Validate Login Request Info', function () {
+  let userDetail;
+  beforeEach((done) => {
+    logger.info(
+      'Initializing user details for each and every test case to validate login request'
+    );
+    userDetail = {
+      userName: 'ShaniKGupta',
+      email: 'shani@gmail.com',
+      password: 'shani@12345',
+      role: 'admin',
+    };
+    done();
+  });
   it('1. Validate Login Request Info: User login information validated successfully', (done) => {
+    let response = UserDetailsValidator.validateLoginRequestInfo(userDetail);
+    expect(response.status).equal(true);
+    expect(response.statusCode).equal(200);
+    expect(response.message).equal(
+      'User email and password validated successfully!'
+    );
     done();
   });
 
   it('2. Validate Login Request Info: User login information validation failed', (done) => {
+    delete userDetail.email;
+    let response = UserDetailsValidator.validateLoginRequestInfo(userDetail);
+    expect(response.status).equal(false);
+    expect(response.statusCode).equal(400);
+    expect(response.message).equal(
+      'Invalid user login information! Something is missing'
+    );
     done();
   });
 
-  it('3. Validate Login Request Info: User email already registed to login succesfully', (done) => {
+  it('3. Validate Login Request Info: User email verification failed to login', (done) => {
+    userDetail.email = 'test@myemail.com';
+    let response = UserDetailsValidator.validateLoginRequestInfo(userDetail);
+    expect(response.status).equal(false);
+    expect(response.statusCode).equal(404);
+    expect(response.message).equal(
+      `User not found with email ${userDetail.email}`
+    );
     done();
   });
 
-  it('4. Validate Login Request Info: User email verification failed to login', (done) => {
-    done();
-  });
-
-  it('5. Validate Login Request Info: User password verification successful', (done) => {
-    done();
-  });
-
-  it('6. Validate Login Request Info: User password verification failed', (done) => {
+  it('5. Validate Login Request Info: User password verification failed', (done) => {
+    userDetail.password = 'testmypassword';
+    let response = UserDetailsValidator.validateLoginRequestInfo(userDetail);
+    expect(response.status).equal(false);
+    expect(response.statusCode).equal(401);
+    expect(response.message).equal(
+      `Invalid user password! Please provide correct password!`
+    );
     done();
   });
 });

@@ -9,3 +9,58 @@
 2023-12-14 21:05:12:512 [35mhttp[39m: [35m::1 POST /auth/login 200 286 - 28.317 ms[39m
 [35m[39m
 2023-12-14 21:09:00:90 [32minfo[39m: [32mServer listening on PORT: 3000[39m
+2023-12-14 22:37:25:3725 [32minfo[39m: [32mInitializing user details for each and every test case[39m
+2023-12-14 22:37:25:3725 [32minfo[39m: [32mInitializing user details for each and every test case[39m
+2023-12-14 22:37:25:3725 [32minfo[39m: [32mInitializing user details for each and every test case[39m
+2023-12-14 22:37:25:3725 [32minfo[39m: [32mInitializing user details for each and every test case[39m
+2023-12-14 22:37:25:3725 [32minfo[39m: [32mInitializing user details for each and every test case[39m
+2023-12-14 22:41:13:4113 [32minfo[39m: [32mInitializing user details for each and every test case to validate registration[39m
+2023-12-14 22:41:13:4113 [32minfo[39m: [32mInitializing user details for each and every test case to validate registration[39m
+2023-12-14 22:41:13:4113 [32minfo[39m: [32mInitializing user details for each and every test case to validate registration[39m
+2023-12-14 22:41:13:4113 [32minfo[39m: [32mInitializing user details for each and every test case to validate registration[39m
+2023-12-14 22:41:13:4113 [32minfo[39m: [32mInitializing user details for each and every test case to validate registration[39m
+2023-12-14 22:41:13:4113 [32minfo[39m: [32mInitializing user details for each and every test case to validate login request[39m
+2023-12-14 22:41:13:4113 [32minfo[39m: [32mInitializing user details for each and every test case to validate login request[39m
+2023-12-14 22:41:13:4113 [32minfo[39m: [32mInitializing user details for each and every test case to validate login request[39m
+2023-12-14 22:41:13:4113 [32minfo[39m: [32mInitializing user details for each and every test case to validate login request[39m
+2023-12-14 22:41:13:4113 [32minfo[39m: [32mInitializing user details for each and every test case to validate login request[39m
+2023-12-14 22:41:13:4113 [32minfo[39m: [32mInitializing user details for each and every test case to validate login request[39m
+2023-12-14 22:42:39:4239 [32minfo[39m: [32mInitializing user details for each and every test case to validate registration[39m
+2023-12-14 22:42:39:4239 [32minfo[39m: [32mInitializing user details for each and every test case to validate registration[39m
+2023-12-14 22:42:39:4239 [32minfo[39m: [32mInitializing user details for each and every test case to validate registration[39m
+2023-12-14 22:42:39:4239 [32minfo[39m: [32mInitializing user details for each and every test case to validate registration[39m
+2023-12-14 22:42:39:4239 [32minfo[39m: [32mInitializing user details for each and every test case to validate registration[39m
+2023-12-14 22:42:39:4239 [32minfo[39m: [32mInitializing user details for each and every test case to validate login request[39m
+2023-12-14 22:42:39:4239 [32minfo[39m: [32mInitializing user details for each and every test case to validate login request[39m
+2023-12-14 22:42:39:4239 [32minfo[39m: [32mInitializing user details for each and every test case to validate login request[39m
+2023-12-14 22:42:39:4239 [32minfo[39m: [32mInitializing user details for each and every test case to validate login request[39m
+2023-12-14 22:42:39:4239 [32minfo[39m: [32mInitializing user details for each and every test case to validate login request[39m
+2023-12-14 22:42:39:4239 [32minfo[39m: [32mInitializing user details for each and every test case to validate login request[39m
+2023-12-14 22:44:30:4430 [32minfo[39m: [32mInitializing user details for each and every test case to validate registration[39m
+2023-12-14 22:44:30:4430 [32minfo[39m: [32mInitializing user details for each and every test case to validate registration[39m
+2023-12-14 22:44:30:4430 [32minfo[39m: [32mInitializing user details for each and every test case to validate registration[39m
+2023-12-14 22:44:30:4430 [32minfo[39m: [32mInitializing user details for each and every test case to validate registration[39m
+2023-12-14 22:44:30:4430 [32minfo[39m: [32mInitializing user details for each and every test case to validate registration[39m
+2023-12-14 22:44:30:4430 [32minfo[39m: [32mInitializing user details for each and every test case to validate login request[39m
+2023-12-14 22:44:30:4430 [32minfo[39m: [32mInitializing user details for each and every test case to validate login request[39m
+2023-12-14 22:44:30:4430 [32minfo[39m: [32mInitializing user details for each and every test case to validate login request[39m
+2023-12-14 22:44:30:4430 [32minfo[39m: [32mInitializing user details for each and every test case to validate login request[39m
+2023-12-14 22:44:30:4430 [32minfo[39m: [32mInitializing user details for each and every test case to validate login request[39m
+2023-12-14 22:45:52:4552 [32minfo[39m: [32mInitializing user details for each and every test case to validate registration[39m
+2023-12-14 22:45:52:4552 [32minfo[39m: [32mInitializing user details for each and every test case to validate registration[39m
+2023-12-14 22:45:52:4552 [32minfo[39m: [32mInitializing user details for each and every test case to validate registration[39m
+2023-12-14 22:45:52:4552 [32minfo[39m: [32mInitializing user details for each and every test case to validate registration[39m
+2023-12-14 22:45:52:4552 [32minfo[39m: [32mInitializing user details for each and every test case to validate registration[39m
+2023-12-14 22:45:52:4552 [32minfo[39m: [32mInitializing user details for each and every test case to validate login request[39m
+2023-12-14 22:45:52:4552 [32minfo[39m: [32mInitializing user details for each and every test case to validate login request[39m
+2023-12-14 22:45:52:4552 [32minfo[39m: [32mInitializing user details for each and every test case to validate login request[39m
+2023-12-14 22:45:52:4552 [32minfo[39m: [32mInitializing user details for each and every test case to validate login request[39m
+2023-12-14 22:46:06:466 [32minfo[39m: [32mInitializing user details for each and every test case to validate registration[39m
+2023-12-14 22:46:06:466 [32minfo[39m: [32mInitializing user details for each and every test case to validate registration[39m
+2023-12-14 22:46:06:466 [32minfo[39m: [32mInitializing user details for each and every test case to validate registration[39m
+2023-12-14 22:46:06:466 [32minfo[39m: [32mInitializing user details for each and every test case to validate registration[39m
+2023-12-14 22:46:06:466 [32minfo[39m: [32mInitializing user details for each and every test case to validate registration[39m
+2023-12-14 22:46:06:466 [32minfo[39m: [32mInitializing user details for each and every test case to validate login request[39m
+2023-12-14 22:46:06:466 [32minfo[39m: [32mInitializing user details for each and every test case to validate login request[39m
+2023-12-14 22:46:06:466 [32minfo[39m: [32mInitializing user details for each and every test case to validate login request[39m
+2023-12-14 22:46:06:466 [32minfo[39m: [32mInitializing user details for each and every test case to validate login request[39m
