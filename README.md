@@ -6,6 +6,23 @@ Build a RESTful API that allows users to fetch news articles from multiple sourc
 
 In this project, we will create a RESTful API using Node.js, Express.js, and NPM packages. The API will allow users to register, log in, and set their news preferences (e.g., categories, sources). The API will then fetch news articles from multiple sources using external news APIs (e.g., NewsAPI). The fetched articles should be processed and filtered asynchronously based on user preferences.
 
+## Extended Project Requirement Description:
+
+This assignment will be on top of the previous week’s work. You need to make changes accordingly.
+
+   1. Review the project from Week 2 and identify potential security vulnerabilities.
+   2. Implement input validation and sanitization for user registration, event creation, and updates.
+   3. Optimize performance by implementing caching, if not done in the previous week's optional extension.
+   4. Set up unit testing and write test cases for the API endpoints, focusing on testing input validation and proper functioning of CRUD operations. Make sure to achieve good test coverage and test edge cases.
+   5. Refactor the API code to improve error handling, ensuring that appropriate error messages are returned for different types of errors (e.g., validation errors, authentication errors, authorization errors, and server errors).
+   6. Test the API using Postman or Curl to ensure it works as expected and that the implemented security measures are effective.
+
+## Optional extension:
+   1. Implement rate limiting to protect the API against brute-force attacks and excessive requests.
+   2. Add user email verification to the registration process. Send a verification email with a unique token and require the user to confirm their email address before they can access the API.
+   3. Log API requests and responses for auditing purposes. Use a logging library like Winston or Morgan to log request and response data.
+   4. Add end-to-end tests for the API using a testing tool like Supertest to simulate user interaction and test the entire application workflow.
+
 ## Initial Project Setup:
 
 Used the below-mentioned npm command to initialize the project-
