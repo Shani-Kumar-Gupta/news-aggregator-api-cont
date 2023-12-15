@@ -70,6 +70,28 @@ Used the below-mentioned npm command to initialize the project-
    npm run coverage
    ```
 
+## Add .env file with below mentioned keys and add your value to run the code locally
+   ```bash
+   #Port Number
+   PORT_NUMBER = 3000
+
+   #Environment
+   NODE_ENV = "development"
+
+   # MondoDB database URI
+   # MONGODB_DB_URI = "putyourmongofburi"
+
+   #JWT
+   #JWT Secret Key
+   JWT_SECRET_KEY = "putyoursecretkey"
+   #Number of minutes after which an access toekn expires
+   JWT_ACCESS_TOKEN_EXPIRATION_TIME=86400
+
+   #NEWS API
+   #News API Key
+   NEWS_AGGREGATOR_API_KEY = "putyourapikey"
+   ```
+
 ## Dependencies:
 
 As a part of backend application and API development, I have used the below-mentioned packages or modules as dependencies-
