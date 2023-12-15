@@ -42,6 +42,17 @@ Used the below-mentioned npm command to initialize the project-
    npm run dev
    ```
 
+5. Run the below command for testing and test coverage report
+
+   Command to Run Test Cases:
+   ```bash
+   npm run test
+   ```
+   Command to get the Test Coverage Report
+   ```bash
+   npm run coverage
+   ```
+
 ## Dependencies:
 
 As a part of backend application and API development, I have used the below-mentioned packages or modules as dependencies-
